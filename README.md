@@ -8,6 +8,7 @@ A classic card-matching memory game.
 - Flip animations and match feedback
 - Move counter and timer
 - Best score per difficulty
+- A How to play popup explains the rules
 
 ## Running it
 
