@@ -110,6 +110,7 @@ function flip(card, emoji) {
       matched++;
       pairsEl.textContent = `${matched} / ${pairCount}`;
       resetTurn();
+      messageEl.textContent = matched === pairCount ? 'You matched every pair!' : 'Nice — a match!';
       if (matched === pairCount) endGame();
     }, 520);
   } else {
